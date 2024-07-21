@@ -2,7 +2,10 @@
 
 // console.log(Hworld);
 getName();
-console.log(x);
+// console.log(x);
+console.log(getName1);
+console.log(getName);
+console.log(getName2);
 
 // var x = 9;
 
@@ -10,5 +13,15 @@ function getName(){
     console.log("Hello World");
 }
 
+var getName1 = () => {
+    console.log("This is arrow function");
+}
+
+var getName2 = function(){
+    console.log("function 2")
+}
 // getName();
 // console.log(x);
+console.log(getName1);
+console.log(getName);
+console.log(getName2);
