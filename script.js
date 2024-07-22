@@ -58,8 +58,12 @@ function b() {
 
 function a(){
     var x = 23;
+    b();
     function b(){
         var y = 24;
-        
+        console.log(x);
     }
+    console.log(y);
 }
+
+a();
