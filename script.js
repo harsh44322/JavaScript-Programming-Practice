@@ -35,20 +35,20 @@
 // Working of functions
 // -------------------------------------------------------------------------------------
 
-var x = 1;
-a();
-b();
-console.log(x);
+// var x = 1;
+// a();
+// b();
+// console.log(x);
 
-function a() {
-    // var x = 10;
-    console.log(x);
-}
+// function a() {
+//     // var x = 10;
+//     console.log(x);
+// }
 
-function b() {
-    var x = 100;
-    console.log(x);
-}
+// function b() {
+//     var x = 100;
+//     console.log(x);
+// }
 
 
 // -------------------------------------------------------------------------------------
@@ -62,8 +62,10 @@ function a(){
     function b(){
         var y = 24;
         console.log(x);
+        console.log(y);
+        console.log(z);
     }
-    console.log(y);
+    
 }
-
+var z = 25
 a();
