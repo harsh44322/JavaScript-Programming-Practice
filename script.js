@@ -56,20 +56,30 @@
 // -------------------------------------------------------------------------------------
  
 
-function a(){
-    var x = 23;
-    b();
-    function b(){
-        var y = 24;
-        console.log(x);
-        console.log(y);
-        console.log(z);
-    }
+// function a(){
+//     var x = 23;
+//     b();
+//     function b(){
+//         var y = 24;
+//         console.log(x);
+//         console.log(y);
+//         console.log(z);
+//     }
     
-}
-var z = 25
-a();
+// }
+// var z = 25
+// a();
 
 // -------------------------------------------------------------------------------------
 // Let, Const and Var
 // -------------------------------------------------------------------------------------
+
+// console.log(a); //ReferenceError: Cannot access 'a' before initialization
+
+let a = 10;
+
+// let a = 20; //SyntaxError: Identifier 'a' has already been declared
+
+// const b; //SyntaxError: Missing initializer in const declaration
+
+// const b = 100;
