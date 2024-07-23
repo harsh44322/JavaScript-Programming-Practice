@@ -99,7 +99,7 @@
 //     console.log(c); //30
 // }
 // console.log(a); //10
-// console.log(b); //Uncaught ReferenceError: b is not defined because b and c are block scoped.
+// console.log(b); //Uncaught ReferenceError: b is not defined - because b and c are block scoped.
 // console.log(c);
 
 // -------------------------------------------------------------------------------------
@@ -119,13 +119,13 @@
 //     console.log(c); //300
 // }
 
-// console.log(a); //100 because while shadowing var it shadows inside global scope but that is not the case for let and const
+// console.log(a); //100 - because while shadowing var it shadows inside global scope but that is not the case for let and const
 // console.log(b); //20 because it is present in script scope
 // console.log(c); //30 because it is present in script scope
 
-let a = 20;
+// let a = 20;
 
-{
-    var a = 30;
-    console.log(a);
-}
+// {
+//     var a = 30;
+//     console.log(a); //SyntaxError: Identifier 'a' has already been declared - because of illegal shadowing
+// }
