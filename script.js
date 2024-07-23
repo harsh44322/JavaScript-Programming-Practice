@@ -114,11 +114,11 @@ const c = 30;
     var a = 100;
     let b = 200;
     const c = 300;
-    console.log(a);
-    console.log(b);
-    console.log(c);
+    console.log(a); //100
+    console.log(b); //200
+    console.log(c); //300
 }
 
-console.log(a);
-console.log(b);
-console.log(c);
+console.log(a); //100 because while shadowing var it shadows inside global scope but that is not the case for let and const
+console.log(b); //20 because it is present in script scope
+console.log(c); //30 because it is present in script scope
