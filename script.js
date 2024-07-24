@@ -137,7 +137,7 @@
 function x(){
     let a = 12;
     function y(){
-        console.log(a);
+        console.log(a); // 12
     }
     y();
 }
