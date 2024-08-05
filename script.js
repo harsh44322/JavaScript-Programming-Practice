@@ -56,19 +56,19 @@
 // -------------------------------------------------------------------------------------
  
 
-// function a(){
-//     var x = 23;
-//     b();
-//     function b(){
-//         var y = 24;
-//         console.log(x);
-//         console.log(y);
-//         console.log(z);
-//     }
+function a(){
+    var x = 23;
+    b();
+    function b(){
+        var y = 24;
+        console.log(x);
+        console.log(y);
+        console.log(z);
+    }
     
-// }
-// var z = 25
-// a();
+}
+var z = 25
+a();
 
 // -------------------------------------------------------------------------------------
 // Let, Const and Var
