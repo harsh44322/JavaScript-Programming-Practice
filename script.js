@@ -3,33 +3,33 @@
 // -------------------------------------------------------------------------------------
 
 
-var Hworld = "Hello World";
+// var Hworld = "Hello World";
 
-console.log(Hworld);
-getName();
-console.log(x);
-console.log(getName1);
-console.log(getName);
-console.log(getName2);
+// console.log(Hworld);
+// getName();
+// console.log(x);
+// console.log(getName1);
+// console.log(getName);
+// console.log(getName2);
 
-var x = 9;
+// var x = 9;
 
-function getName(){
-    console.log("Hello World");
-}
+// function getName(){
+//     console.log("Hello World");
+// }
 
-var getName1 = () => {
-    console.log("This is arrow function");
-}
+// var getName1 = () => {
+//     console.log("This is arrow function");
+// }
 
-var getName2 = function(){
-    console.log("function 2")
-}
-getName();
-console.log(x);
-console.log(getName1);
-console.log(getName);
-console.log(getName2);
+// var getName2 = function(){
+//     console.log("function 2")
+// }
+// getName();
+// console.log(x);
+// console.log(getName1);
+// console.log(getName);
+// console.log(getName2);
 
 // -------------------------------------------------------------------------------------
 // Working of functions
