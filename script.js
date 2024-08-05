@@ -76,7 +76,7 @@
 // -------------------------------------------------------------------------------------
 
 // console.log(a); //ReferenceError: Cannot access 'a' before initialization
-// this is because of temporal dead zone - the period between hoisting and initialization of value.
+// // this is because of temporal dead zone - the period between hoisting and initialization of value.
 
 // let a = 10;
 
