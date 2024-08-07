@@ -122,7 +122,7 @@
 
 // console.log(a); //100 - because while shadowing var it shadows inside global scope but that is not the case for let and const
 // console.log(b); //20 because it is present in script scope
-// console.log(c); //30 because it is present in script scope
+console.log(c); //30 because it is present in script scope
 
 // let a = 20;
 
