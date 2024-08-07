@@ -124,12 +124,12 @@
 // console.log(b); //20 because it is present in script scope
 // console.log(c); //30 because it is present in script scope
 
-// let a = 20;
+let a = 20;
 
-// {
-//     var a = 30;
-//     console.log(a); //SyntaxError: Identifier 'a' has already been declared - because of illegal shadowing
-// }
+{
+    var a = 30;
+    console.log(a); //SyntaxError: Identifier 'a' has already been declared - because of illegal shadowing
+}
 
 // -------------------------------------------------------------------------------------
 // Closures
