@@ -78,13 +78,13 @@
 // console.log(a); //ReferenceError: Cannot access 'a' before initialization
 // // this is because of temporal dead zone - the period between hoisting and initialization of value.
 
-// let a = 10;
+let a = 10;
 
-// let a = 20; //SyntaxError: Identifier 'a' has already been declared
+let a = 20; //SyntaxError: Identifier 'a' has already been declared
 
-// const b; //SyntaxError: Missing initializer in const declaration
+const b; //SyntaxError: Missing initializer in const declaration
 
-// const b = 100;
+const b = 100;
 
 // -------------------------------------------------------------------------------------
 // Block and Block Scope
