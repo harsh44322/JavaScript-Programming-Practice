@@ -61,9 +61,9 @@
 //     b();
 //     function b(){
 //         var y = 24;
-        console.log(x);
-        console.log(y);
-        console.log(z);
+        // console.log(x);
+        // console.log(y);
+        // console.log(z);
 //     }
     
 // }
