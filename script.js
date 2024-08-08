@@ -78,30 +78,30 @@
 // console.log(a); //ReferenceError: Cannot access 'a' before initialization
 // // this is because of temporal dead zone - the period between hoisting and initialization of value.
 
-let a = 10;
+// let a = 10;
 
-let a = 20; //SyntaxError: Identifier 'a' has already been declared
+// let a = 20; //SyntaxError: Identifier 'a' has already been declared
 
-const b; //SyntaxError: Missing initializer in const declaration
+// const b; //SyntaxError: Missing initializer in const declaration
 
-const b = 100;
+// const b = 100;
 
 // -------------------------------------------------------------------------------------
 // Block and Block Scope
 // -------------------------------------------------------------------------------------
 
 
-// {
-//     var a = 10;
-//     let b = 20;
-//     const c = 30;
-//     console.log(a); //10
-//     console.log(b); //20
-//     console.log(c); //30
-// }
-// console.log(a); //10
-// console.log(b); //Uncaught ReferenceError: b is not defined - because b and c are block scoped.
-// console.log(c);
+{
+    var a = 10;
+    let b = 20;
+    const c = 30;
+    console.log(a); //10
+    console.log(b); //20
+    console.log(c); //30
+}
+console.log(a); //10
+console.log(b); //Uncaught ReferenceError: b is not defined - because b and c are block scoped.
+console.log(c);
 
 // -------------------------------------------------------------------------------------
 // Shadowing and Illegal Shadowing
